@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="中英论文下载宝藏网站, milu麋鹿博">
+    <meta name="keywords" content="Excel表格随机排序, milu麋鹿博">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>中英论文下载宝藏网站 | milu麋鹿博</title>
+    <title>Excel表格随机排序 | milu麋鹿博</title>
     <link rel="icon" type="image/png" href="/medias/logo1.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -249,12 +249,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/37.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/24.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">中英论文下载宝藏网站</h1>
+                    <h1 class="description center-align post-title">Excel表格随机排序</h1>
                 </div>
             </div>
         </div>
@@ -370,12 +370,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%8A%80%E5%B7%A7/">
-                                <span class="chip bg-color">技巧</span>
+                            <a href="/tags/Excel/">
+                                <span class="chip bg-color">Excel</span>
                             </a>
                         
-                            <a href="/tags/%E8%AE%BA%E6%96%87/">
-                                <span class="chip bg-color">论文</span>
+                            <a href="/tags/%E6%8A%80%E5%B7%A7/">
+                                <span class="chip bg-color">技巧</span>
                             </a>
                         
                     </div>
@@ -390,7 +390,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-05-17
+                    2021-08-02
                 </div>
                 
 
@@ -419,14 +419,45 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="一、中文网站"><a href="#一、中文网站" class="headerlink" title="一、中文网站"></a>一、中文网站</h2><p>​        1.知网：<a target="_blank" rel="noopener" href="https://www.cnki.net/"><strong>点这里</strong></a></p>
-<p>​        2.百度文库：<a target="_blank" rel="noopener" href="https://wenku.baidu.com/"><strong>点这里</strong></a></p>
-<h2 id="二、外文文献"><a href="#二、外文文献" class="headerlink" title="二、外文文献"></a>二、外文文献</h2><p>​        1.寻知：<a target="_blank" rel="noopener" href="https://xunzhi.info/master/main.php"><strong>点这里</strong></a></p>
-<p>​        2.Web of Science：<a target="_blank" rel="noopener" href="https://apps.webofknowledge.com/UA_GeneralSearch_input.do?product=UA&amp;search_mode=GeneralSearch&amp;SID=8DmLJH7eEwfRSiiEWly&amp;preferencesSaved="><strong>点这里</strong></a></p>
-<h2 id="三、下载论文"><a href="#三、下载论文" class="headerlink" title="三、下载论文"></a>三、下载论文</h2><p>​        在这里我们可以通过复制DOI的号码来进行下载。</p>
-<p>​        <a target="_blank" rel="noopener" href="https://www.sci-hub.ren/"><strong>链接1，点这里</strong></a></p>
-<p>​        <a target="_blank" rel="noopener" href="https://sci-hub.tf/"><strong>链接2，点这里</strong></a></p>
-<h2 id="四、免费论文查重"><a href="#四、免费论文查重" class="headerlink" title="四、免费论文查重"></a>四、免费论文查重</h2><p>​        <a target="_blank" rel="noopener" href="https://www.papertime.shop/"><strong>点这里</strong></a></p>
+                <h2 id="一、实现目标"><a href="#一、实现目标" class="headerlink" title="一、实现目标"></a>一、实现目标</h2><p>在已有的姓名排序中实现随机排序姓名。</p>
+<h2 id="二、解决办法"><a href="#二、解决办法" class="headerlink" title="二、解决办法"></a>二、解决办法</h2><p>已有排序如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th align="center">序号</th>
+<th align="center">姓名</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1</td>
+<td align="center">赵一</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">钱二</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">孙三</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">李四</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">王五</td>
+</tr>
+</tbody></table>
+<p>若想打乱排序，可执行如下操作：</p>
+<p>1.新加一列</p>
+<p>2.在第一排中写入<code>=RAND()</code>函数，然后系统会自动生成一个随机数</p>
+<p>3.拖拽实现本列全部覆盖，进而获得随机数列，如下图所示：</p>
+<p><img src="/images/Excel%E8%A1%A8%E6%A0%BC%E9%9A%8F%E6%9C%BA%E6%8E%92%E5%BA%8F/image-20210802090504411.png" alt="随机数列生成图"></p>
+<p>4.选中全部区域，在“开始”中找到“排序和筛选”，选择“自定义排序”，在“主要关键字”中选择排序，得到如下图。</p>
+<p><img src="/images/Excel%E8%A1%A8%E6%A0%BC%E9%9A%8F%E6%9C%BA%E6%8E%92%E5%BA%8F/image-20210802090926719.png" alt="筛选图片展示"></p>
+<p>5.点击确定之后得到如下随机排序。</p>
+<p><img src="/images/Excel%E8%A1%A8%E6%A0%BC%E9%9A%8F%E6%9C%BA%E6%8E%92%E5%BA%8F/image-20210802091030570.png" alt="排序成功"></p>
 
                 
             </div>
@@ -453,7 +484,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2021/05/17/zhong-ying-lun-wen-xia-zai-bao-cang-wang-zhan/">http://example.com/2021/05/17/zhong-ying-lun-wen-xia-zai-bao-cang-wang-zhan/</a>
+                    <a href="http://example.com/2021/08/02/excel-biao-ge-sui-ji-pai-xu/">http://example.com/2021/08/02/excel-biao-ge-sui-ji-pai-xu/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -491,12 +522,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%8A%80%E5%B7%A7/">
-                                    <span class="chip bg-color">技巧</span>
+                                <a href="/tags/Excel/">
+                                    <span class="chip bg-color">Excel</span>
                                 </a>
                             
-                                <a href="/tags/%E8%AE%BA%E6%96%87/">
-                                    <span class="chip bg-color">论文</span>
+                                <a href="/tags/%E6%8A%80%E5%B7%A7/">
+                                    <span class="chip bg-color">技巧</span>
                                 </a>
                             
                         </div>
@@ -803,9 +834,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2021/08/02/excel-biao-ge-sui-ji-pai-xu/">
                     <div class="card-image">
@@ -823,9 +855,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-08-02
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-02
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -834,6 +866,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -856,13 +889,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/05/17/pycharm-de-an-zhuang/">
+                <a href="/2021/05/17/zhong-ying-lun-wen-xia-zai-bao-cang-wang-zhan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/40.jpg" class="responsive-img" alt="PyCharm的安装">
+                        <img src="/medias/featureimages/37.jpg" class="responsive-img" alt="中英论文下载宝藏网站">
                         
-                        <span class="card-title">PyCharm的安装</span>
+                        <span class="card-title">中英论文下载宝藏网站</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -886,12 +919,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%AE%89%E8%A3%85/">
-                        <span class="chip bg-color">安装</span>
+                    <a href="/tags/%E6%8A%80%E5%B7%A7/">
+                        <span class="chip bg-color">技巧</span>
                     </a>
                     
-                    <a href="/tags/PyCharm/">
-                        <span class="chip bg-color">PyCharm</span>
+                    <a href="/tags/%E8%AE%BA%E6%96%87/">
+                        <span class="chip bg-color">论文</span>
                     </a>
                     
                 </div>

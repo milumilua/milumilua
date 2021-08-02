@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>Excel表格随机排序</title>
+      <link href="2021/08/02/excel-biao-ge-sui-ji-pai-xu/"/>
+      <url>2021/08/02/excel-biao-ge-sui-ji-pai-xu/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、实现目标"><a href="#一、实现目标" class="headerlink" title="一、实现目标"></a>一、实现目标</h2><p>在已有的姓名排序中实现随机排序姓名。</p><h2 id="二、解决办法"><a href="#二、解决办法" class="headerlink" title="二、解决办法"></a>二、解决办法</h2><p>已有排序如下表所示：</p><table><thead><tr><th align="center">序号</th><th align="center">姓名</th></tr></thead><tbody><tr><td align="center">1</td><td align="center">赵一</td></tr><tr><td align="center">2</td><td align="center">钱二</td></tr><tr><td align="center">3</td><td align="center">孙三</td></tr><tr><td align="center">4</td><td align="center">李四</td></tr><tr><td align="center">5</td><td align="center">王五</td></tr></tbody></table><p>若想打乱排序，可执行如下操作：</p><p>1.新加一列</p><p>2.在第一排中写入<code>=RAND()</code>函数，然后系统会自动生成一个随机数</p><p>3.拖拽实现本列全部覆盖，进而获得随机数列，如下图所示：</p><p><img src="/images/Excel%E8%A1%A8%E6%A0%BC%E9%9A%8F%E6%9C%BA%E6%8E%92%E5%BA%8F/image-20210802090504411.png" alt="随机数列生成图"></p><p>4.选中全部区域，在“开始”中找到“排序和筛选”，选择“自定义排序”，在“主要关键字”中选择排序，得到如下图。</p><p><img src="/images/Excel%E8%A1%A8%E6%A0%BC%E9%9A%8F%E6%9C%BA%E6%8E%92%E5%BA%8F/image-20210802090926719.png" alt="筛选图片展示"></p><p>5.点击确定之后得到如下随机排序。</p><p><img src="/images/Excel%E8%A1%A8%E6%A0%BC%E9%9A%8F%E6%9C%BA%E6%8E%92%E5%BA%8F/image-20210802091030570.png" alt="排序成功"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Excel </tag>
+            
+            <tag> 技巧 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>中英论文下载宝藏网站</title>
       <link href="2021/05/17/zhong-ying-lun-wen-xia-zai-bao-cang-wang-zhan/"/>
       <url>2021/05/17/zhong-ying-lun-wen-xia-zai-bao-cang-wang-zhan/</url>
