@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>milu麋鹿博</title>
+  
+  <subtitle>凡事无小大 , 物自为舍。</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-08-02T01:12:39.543Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>麋鹿</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel表格随机排序</title>
+    <link href="http://example.com/posts/33753.html"/>
+    <id>http://example.com/posts/33753.html</id>
+    <published>2021-08-02T00:38:54.000Z</published>
+    <updated>2021-08-02T01:12:39.543Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、实现目标&quot;&gt;&lt;a href=&quot;#一、实现目标&quot; class=&quot;headerlink&quot; title=&quot;一、实现目标&quot;&gt;&lt;/a&gt;一、实现目标&lt;/h2&gt;&lt;p&gt;在已有的姓名排序中实现随机排序姓名。&lt;/p&gt;
+&lt;h2 id=&quot;二、解决办法&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Excel" scheme="http://example.com/tags/Excel/"/>
+    
+    <category term="技巧" scheme="http://example.com/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>中英论文下载宝藏网站</title>
+    <link href="http://example.com/posts/12436.html"/>
+    <id>http://example.com/posts/12436.html</id>
+    <published>2021-05-17T11:27:46.000Z</published>
+    <updated>2021-05-17T12:02:30.416Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、中文网站&quot;&gt;&lt;a href=&quot;#一、中文网站&quot; class=&quot;headerlink&quot; title=&quot;一、中文网站&quot;&gt;&lt;/a&gt;一、中文网站&lt;/h2&gt;&lt;p&gt;​        1.知网：&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="技巧" scheme="http://example.com/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="论文" scheme="http://example.com/tags/%E8%AE%BA%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PyCharm的安装</title>
+    <link href="http://example.com/posts/12889.html"/>
+    <id>http://example.com/posts/12889.html</id>
+    <published>2021-05-17T07:57:55.000Z</published>
+    <updated>2021-05-17T11:19:46.979Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、下载&quot;&gt;&lt;a href=&quot;#一、下载&quot; class=&quot;headerlink&quot; title=&quot;一、下载&quot;&gt;&lt;/a&gt;一、下载&lt;/h2&gt;&lt;p&gt;​        找到&lt;code&gt;PyCharm&lt;/code&gt;的&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="安装" scheme="http://example.com/tags/%E5%AE%89%E8%A3%85/"/>
+    
+    <category term="PyCharm" scheme="http://example.com/tags/PyCharm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IDEA中配置忽略不想提交的文件</title>
+    <link href="http://example.com/posts/31797.html"/>
+    <id>http://example.com/posts/31797.html</id>
+    <published>2021-04-30T01:14:21.000Z</published>
+    <updated>2021-04-30T02:06:06.270Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、情况描述&quot;&gt;&lt;a href=&quot;#一、情况描述&quot; class=&quot;headerlink&quot; title=&quot;一、情况描述&quot;&gt;&lt;/a&gt;一、情况描述&lt;/h2&gt;&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    
+    <category term="Git" scheme="http://example.com/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git commit代码提交书写规范</title>
+    <link href="http://example.com/posts/10353.html"/>
+    <id>http://example.com/posts/10353.html</id>
+    <published>2021-04-22T11:52:20.000Z</published>
+    <updated>2021-04-22T12:05:57.024Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;git-commit规定格式&quot;&gt;&lt;a href=&quot;#git-commit规定格式&quot; class=&quot;headerlink&quot; title=&quot;git commit规定格式&quot;&gt;&lt;/a&gt;git commit规定格式&lt;/h2&gt;&lt;h3 id=&quot;1-fix：修复bug&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Git" scheme="http://example.com/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>将项目传到阿里code上</title>
+    <link href="http://example.com/posts/62208.html"/>
+    <id>http://example.com/posts/62208.html</id>
+    <published>2021-04-02T08:18:31.000Z</published>
+    <updated>2021-04-07T02:54:21.678Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、登录阿里code&quot;&gt;&lt;a href=&quot;#一、登录阿里code&quot; class=&quot;headerlink&quot; title=&quot;一、登录阿里code&quot;&gt;&lt;/a&gt;一、登录阿里code&lt;/h2&gt;&lt;p&gt;进入&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="技巧" scheme="http://example.com/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="Git" scheme="http://example.com/tags/Git/"/>
+    
+    <category term="code" scheme="http://example.com/tags/code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>touch不是内部或外部命令,也不是可运行的程序</title>
+    <link href="http://example.com/posts/6945.html"/>
+    <id>http://example.com/posts/6945.html</id>
+    <published>2021-04-02T02:53:05.000Z</published>
+    <updated>2021-04-02T07:09:48.460Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、问题描述&quot;&gt;&lt;a href=&quot;#一、问题描述&quot; class=&quot;headerlink&quot; title=&quot;一、问题描述&quot;&gt;&lt;/a&gt;一、问题描述&lt;/h2&gt;&lt;p&gt;在将项目放到阿里云code中的时候，根据提示输入&lt;code&gt;touch</summary>
+        
+      
+    
+    
+    
+    
+    <category term="ERROR" scheme="http://example.com/tags/ERROR/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Less安装</title>
+    <link href="http://example.com/posts/39356.html"/>
+    <id>http://example.com/posts/39356.html</id>
+    <published>2021-03-25T13:00:52.000Z</published>
+    <updated>2021-04-30T02:17:09.381Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;code&gt;Less &lt;/code&gt;是一门&lt;code&gt;CSS&lt;/code&gt;预处理语言，它扩展了&lt;code&gt; CSS&lt;/code&gt; 语言，增加了变量、&lt;code&gt;Mixin&lt;/code&gt;、函数等特性，使&lt;code&gt; CSS&lt;/code&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Less" scheme="http://example.com/tags/Less/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装vantUI</title>
+    <link href="http://example.com/posts/46155.html"/>
+    <id>http://example.com/posts/46155.html</id>
+    <published>2021-03-25T12:54:15.000Z</published>
+    <updated>2021-03-25T13:02:57.113Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、vantUI安装&quot;&gt;&lt;a href=&quot;#一、vantUI安装&quot; class=&quot;headerlink&quot; title=&quot;一、vantUI安装&quot;&gt;&lt;/a&gt;一、vantUI安装&lt;/h2&gt;&lt;pre class=&quot;line-numbers language-bash&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="vantUI" scheme="http://example.com/tags/vantUI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue-axios插件的安装</title>
+    <link href="http://example.com/posts/59911.html"/>
+    <id>http://example.com/posts/59911.html</id>
+    <published>2021-03-25T12:20:06.000Z</published>
+    <updated>2021-03-25T12:51:46.299Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、安装vue-axios插件&quot;&gt;&lt;a href=&quot;#一、安装vue-axios插件&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
+    
+    <category term="axios" scheme="http://example.com/tags/axios/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新建vue项目</title>
+    <link href="http://example.com/posts/30460.html"/>
+    <id>http://example.com/posts/30460.html</id>
+    <published>2021-03-25T11:19:26.000Z</published>
+    <updated>2021-03-25T12:51:29.854Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、检测npm和node都安装好了&quot;&gt;&lt;a href=&quot;#一、检测npm和node都安装好了&quot; class=&quot;headerlink&quot; title=&quot;一、检测npm和node都安装好了&quot;&gt;&lt;/a&gt;一、检测npm和node都安装好了&lt;/h2&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>英语六级词汇</title>
+    <link href="http://example.com/posts/20461.html"/>
+    <id>http://example.com/posts/20461.html</id>
+    <published>2021-03-22T08:20:56.000Z</published>
+    <updated>2021-03-23T08:05:47.802Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、时间、空间&quot;&gt;&lt;a href=&quot;#一、时间、空间&quot; class=&quot;headerlink&quot; title=&quot;一、时间、空间&quot;&gt;&lt;/a&gt;一、时间、空间&lt;/h2&gt;&lt;h3 id=&quot;1-pre-时间提前，预先&quot;&gt;&lt;a href=&quot;#1-pre-时间提前，预先&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="六级" scheme="http://example.com/tags/%E5%85%AD%E7%BA%A7/"/>
+    
+    <category term="词汇" scheme="http://example.com/tags/%E8%AF%8D%E6%B1%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Failed to execute goal org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources (default-resources)</title>
+    <link href="http://example.com/posts/4789.html"/>
+    <id>http://example.com/posts/4789.html</id>
+    <published>2021-03-18T01:06:20.000Z</published>
+    <updated>2021-03-18T02:26:12.854Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、问题描述&quot;&gt;&lt;a href=&quot;#一、问题描述&quot; class=&quot;headerlink&quot; title=&quot;一、问题描述&quot;&gt;&lt;/a&gt;一、问题描述&lt;/h2&gt;&lt;p&gt;在spring boot中的maven打包的时候出现下面的错误：&lt;/p&gt;
+&lt;pre</summary>
+        
+      
+    
+    
+    
+    
+    <category term="ERROR" scheme="http://example.com/tags/ERROR/"/>
+    
+    <category term="maven打包" scheme="http://example.com/tags/maven%E6%89%93%E5%8C%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Typora的下载及安装</title>
+    <link href="http://example.com/posts/707.html"/>
+    <id>http://example.com/posts/707.html</id>
+    <published>2021-03-17T12:54:30.000Z</published>
+    <updated>2021-03-18T08:16:35.218Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、下载&quot;&gt;&lt;a href=&quot;#一、下载&quot; class=&quot;headerlink&quot; title=&quot;一、下载&quot;&gt;&lt;/a&gt;一、下载&lt;/h2&gt;&lt;p&gt;点击下方链接去官网下载：&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="安装" scheme="http://example.com/tags/%E5%AE%89%E8%A3%85/"/>
+    
+    <category term="下载" scheme="http://example.com/tags/%E4%B8%8B%E8%BD%BD/"/>
+    
+    <category term="Typora" scheme="http://example.com/tags/Typora/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo s之后利用Ctrl+C不能停止问题</title>
+    <link href="http://example.com/posts/21521.html"/>
+    <id>http://example.com/posts/21521.html</id>
+    <published>2021-03-16T13:46:57.000Z</published>
+    <updated>2021-03-16T13:58:20.284Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、问题描述&quot;&gt;&lt;a href=&quot;#一、问题描述&quot; class=&quot;headerlink&quot; title=&quot;一、问题描述&quot;&gt;&lt;/a&gt;一、问题描述&lt;/h2&gt;&lt;p&gt;当我利用&lt;code&gt;hexo</summary>
+        
+      
+    
+    
+    
+    
+    <category term="ERROR" scheme="http://example.com/tags/ERROR/"/>
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>更换博客位置</title>
+    <link href="http://example.com/posts/4099.html"/>
+    <id>http://example.com/posts/4099.html</id>
+    <published>2021-03-16T12:36:54.000Z</published>
+    <updated>2021-03-16T13:31:45.511Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、配置GitHub密钥ssh&quot;&gt;&lt;a href=&quot;#一、配置GitHub密钥ssh&quot; class=&quot;headerlink&quot; title=&quot;一、配置GitHub密钥ssh&quot;&gt;&lt;/a&gt;一、配置GitHub密钥ssh&lt;/h2&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/posts/16107.html"/>
+    <id>http://example.com/posts/16107.html</id>
+    <published>2021-03-16T08:53:37.365Z</published>
+    <updated>2021-01-30T12:44:12.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="第一次系统自带文件" scheme="http://example.com/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E8%87%AA%E5%B8%A6%E6%96%87%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test</title>
+    <link href="http://example.com/posts/46058.html"/>
+    <id>http://example.com/posts/46058.html</id>
+    <published>2021-03-16T01:44:50.000Z</published>
+    <updated>2021-03-16T02:48:03.425Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、问题描述&quot;&gt;&lt;a href=&quot;#一、问题描述&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="ERROR" scheme="http://example.com/tags/ERROR/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WebStorm的安装</title>
+    <link href="http://example.com/posts/1420.html"/>
+    <id>http://example.com/posts/1420.html</id>
+    <published>2021-03-15T02:15:12.000Z</published>
+    <updated>2021-03-15T02:45:05.661Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、下载&quot;&gt;&lt;a href=&quot;#一、下载&quot; class=&quot;headerlink&quot; title=&quot;一、下载&quot;&gt;&lt;/a&gt;一、下载&lt;/h2&gt;&lt;p&gt;点击下载：&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="安装" scheme="http://example.com/tags/%E5%AE%89%E8%A3%85/"/>
+    
+    <category term="WebStorm" scheme="http://example.com/tags/WebStorm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Axure的安装破解及汉化</title>
+    <link href="http://example.com/posts/47343.html"/>
+    <id>http://example.com/posts/47343.html</id>
+    <published>2021-03-15T02:14:36.000Z</published>
+    <updated>2021-03-15T03:06:27.283Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、下载&quot;&gt;&lt;a href=&quot;#一、下载&quot; class=&quot;headerlink&quot; title=&quot;一、下载&quot;&gt;&lt;/a&gt;一、下载&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Axure" scheme="http://example.com/tags/Axure/"/>
+    
+    <category term="安装" scheme="http://example.com/tags/%E5%AE%89%E8%A3%85/"/>
+    
+    <category term="破解" scheme="http://example.com/tags/%E7%A0%B4%E8%A7%A3/"/>
+    
+    <category term="汉化" scheme="http://example.com/tags/%E6%B1%89%E5%8C%96/"/>
+    
+  </entry>
+  
+</feed>
