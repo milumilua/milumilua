@@ -183,7 +183,7 @@
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    <img src="./images/loading.gif" data-original="/medias/logo.png" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">milu麋鹿博</span>
                 </a>
@@ -271,7 +271,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        <img src="./images/loading.gif" data-original="/medias/logo.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">milu麋鹿博</div>
         <div class="logo-desc">
@@ -538,7 +538,7 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h2 id="一、问题描述"><a href="#一、问题描述" class="headerlink" title="一、问题描述"></a>一、问题描述</h2><p>如下图所示，select下拉栏被下方的文本框遮挡住了，怎么调都调不出来。</p>
-<p><img src="/images/select%E8%A2%AB%E8%A6%86%E7%9B%96%E7%9A%84%E9%97%AE%E9%A2%98/1.png" alt="1"></p>
+<p><img src="./images/loading.gif" data-original="/images/select%E8%A2%AB%E8%A6%86%E7%9B%96%E7%9A%84%E9%97%AE%E9%A2%98/1.png" alt="1"></p>
 <h2 id="二、问题分析"><a href="#二、问题分析" class="headerlink" title="二、问题分析"></a>二、问题分析</h2><p>下方的文本框是wangEditor，而wangEditor设置的层级z-index很高，会覆盖掉和他重合的区域。</p>
 <h2 id="三、解决方法"><a href="#三、解决方法" class="headerlink" title="三、解决方法"></a>三、解决方法</h2><p>在wangEditor的css中添加如下代码：</p>
 <pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token property">z-index</span><span class="token punctuation">:</span> 2 <span class="token important">!important</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
@@ -551,9 +551,9 @@
 <span class="token property">z-index</span><span class="token punctuation">:</span> -1 <span class="token important">!important</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 <p><span style="color:red;"><strong>！！！注意！！！如果使用vue，则不要写在scoped内，否则无效！！！</strong></span></p>
 <h2 id="四、解决后的效果"><a href="#四、解决后的效果" class="headerlink" title="四、解决后的效果"></a>四、解决后的效果</h2><p>在网页中利用“检查元素”可以看到添加到的代码。（F12或者Fn+F12）</p>
-<p><img src="/images/select%E8%A2%AB%E8%A6%86%E7%9B%96%E7%9A%84%E9%97%AE%E9%A2%98/2.png" alt="2"></p>
+<p><img src="./images/loading.gif" data-original="/images/select%E8%A2%AB%E8%A6%86%E7%9B%96%E7%9A%84%E9%97%AE%E9%A2%98/2.png" alt="2"></p>
 <p>最终得到的效果如图所示：</p>
-<p><img src="/images/select%E8%A2%AB%E8%A6%86%E7%9B%96%E7%9A%84%E9%97%AE%E9%A2%98/3.png" alt="3"></p>
+<p><img src="./images/loading.gif" data-original="/images/select%E8%A2%AB%E8%A6%86%E7%9B%96%E7%9A%84%E9%97%AE%E9%A2%98/3.png" alt="3"></p>
 
                 
             </div>
@@ -675,7 +675,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/38.jpg" class="responsive-img" alt="Android Studio--相对布局(Button9)">
+                        <img src="./images/loading.gif" data-original="/medias/featureimages/38.jpg" class="responsive-img" alt="Android Studio--相对布局(Button9)">
                         
                         <span class="card-title">Android Studio--相对布局(Button9)</span>
                     </div>
@@ -720,7 +720,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/53.jpg" class="responsive-img" alt="wechat-devtools下载及安装">
+                        <img src="./images/loading.gif" data-original="/medias/featureimages/53.jpg" class="responsive-img" alt="wechat-devtools下载及安装">
                         
                         <span class="card-title">wechat-devtools下载及安装</span>
                     </div>
@@ -1154,6 +1154,12 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-</body>
+<script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
 
 </html>

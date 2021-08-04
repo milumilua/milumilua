@@ -183,7 +183,7 @@
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    <img src="./images/loading.gif" data-original="/medias/logo.png" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">milu麋鹿博</span>
                 </a>
@@ -271,7 +271,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        <img src="./images/loading.gif" data-original="/medias/logo.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">milu麋鹿博</div>
         <div class="logo-desc">
@@ -537,7 +537,7 @@
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/24.jpg" class="responsive-img" alt="Excel表格随机排序">
+                                <img src="./images/loading.gif" data-original="/medias/featureimages/24.jpg" class="responsive-img" alt="Excel表格随机排序">
                                 
                                 <span class="card-title">Excel表格随机排序</span>
                             </div>
@@ -631,7 +631,7 @@
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/37.jpg" class="responsive-img" alt="中英论文下载宝藏网站">
+                                <img src="./images/loading.gif" data-original="/medias/featureimages/37.jpg" class="responsive-img" alt="中英论文下载宝藏网站">
                                 
                                 <span class="card-title">中英论文下载宝藏网站</span>
                             </div>
@@ -692,7 +692,7 @@
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/40.jpg" class="responsive-img" alt="PyCharm的安装">
+                                <img src="./images/loading.gif" data-original="/medias/featureimages/40.jpg" class="responsive-img" alt="PyCharm的安装">
                                 
                                 <span class="card-title">PyCharm的安装</span>
                             </div>
@@ -759,7 +759,7 @@
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/42.jpg" class="responsive-img" alt="IDEA中配置忽略不想提交的文件">
+                                <img src="./images/loading.gif" data-original="/medias/featureimages/42.jpg" class="responsive-img" alt="IDEA中配置忽略不想提交的文件">
                                 
                                 <span class="card-title">IDEA中配置忽略不想提交的文件</span>
                             </div>
@@ -814,7 +814,7 @@
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/44.jpg" class="responsive-img" alt="git commit代码提交书写规范">
+                                <img src="./images/loading.gif" data-original="/medias/featureimages/44.jpg" class="responsive-img" alt="git commit代码提交书写规范">
                                 
                                 <span class="card-title">git commit代码提交书写规范</span>
                             </div>
@@ -869,7 +869,7 @@
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="将项目传到阿里code上">
+                                <img src="./images/loading.gif" data-original="/medias/featureimages/20.jpg" class="responsive-img" alt="将项目传到阿里code上">
                                 
                                 <span class="card-title">将项目传到阿里code上</span>
                             </div>
@@ -935,7 +935,7 @@
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="touch不是内部或外部命令,也不是可运行的程序">
+                                <img src="./images/loading.gif" data-original="/medias/featureimages/14.jpg" class="responsive-img" alt="touch不是内部或外部命令,也不是可运行的程序">
                                 
                                 <span class="card-title">touch不是内部或外部命令,也不是可运行的程序</span>
                             </div>
@@ -999,7 +999,7 @@
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/32.jpg" class="responsive-img" alt="Less安装">
+                                <img src="./images/loading.gif" data-original="/medias/featureimages/32.jpg" class="responsive-img" alt="Less安装">
                                 
                                 <span class="card-title">Less安装</span>
                             </div>
@@ -1056,7 +1056,7 @@ cnpm install less less-lo
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/55.jpg" class="responsive-img" alt="安装vantUI">
+                                <img src="./images/loading.gif" data-original="/medias/featureimages/55.jpg" class="responsive-img" alt="安装vantUI">
                                 
                                 <span class="card-title">安装vantUI</span>
                             </div>
@@ -1115,7 +1115,7 @@ import 'vant/lib/index.css'//引入van
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/68.jpg" class="responsive-img" alt="vue-axios插件的安装">
+                                <img src="./images/loading.gif" data-original="/medias/featureimages/68.jpg" class="responsive-img" alt="vue-axios插件的安装">
                                 
                                 <span class="card-title">vue-axios插件的安装</span>
                             </div>
@@ -1405,6 +1405,12 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-</body>
+<script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
 
 </html>
