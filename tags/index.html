@@ -302,6 +302,51 @@
 
     
 
+<div id="category-cloud" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
+            </div>
+            <div class="tag-chips">
+                
+                你目前还没有对文章进行分类.
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"Android Studio","weight":1,"link":"/tags/Android-Studio/"},{"text":"Axure","weight":1,"link":"/tags/Axure/"},{"text":"安装","weight":10,"link":"/tags/安装/"},{"text":"破解","weight":2,"link":"/tags/破解/"},{"text":"汉化","weight":1,"link":"/tags/汉化/"},{"text":"Excel","weight":9,"link":"/tags/Excel/"},{"text":"技巧","weight":6,"link":"/tags/技巧/"},{"text":"ERROR","weight":7,"link":"/tags/ERROR/"},{"text":"maven打包","weight":1,"link":"/tags/maven打包/"},{"text":"Git","weight":7,"link":"/tags/Git/"},{"text":"下载","weight":7,"link":"/tags/下载/"},{"text":"配置","weight":3,"link":"/tags/配置/"},{"text":"克隆","weight":1,"link":"/tags/克隆/"},{"text":"推送（Push）","weight":1,"link":"/tags/推送（Push）/"},{"text":"拉取（Pull）","weight":2,"link":"/tags/拉取（Pull）/"},{"text":"HBuilder","weight":1,"link":"/tags/HBuilder/"},{"text":"导入","weight":1,"link":"/tags/导入/"},{"text":"JDK","weight":1,"link":"/tags/JDK/"},{"text":"Less","weight":1,"link":"/tags/Less/"},{"text":"MySQL","weight":2,"link":"/tags/MySQL/"},{"text":"Linux","weight":1,"link":"/tags/Linux/"},{"text":"PyCharm","weight":1,"link":"/tags/PyCharm/"},{"text":"TortoiseGit","weight":1,"link":"/tags/TortoiseGit/"},{"text":"Typora","weight":1,"link":"/tags/Typora/"},{"text":"VSCode","weight":1,"link":"/tags/VSCode/"},{"text":"Blog","weight":1,"link":"/tags/Blog/"},{"text":"第一次系统自带文件","weight":1,"link":"/tags/第一次系统自带文件/"},{"text":"hexo","weight":1,"link":"/tags/hexo/"},{"text":"博客","weight":2,"link":"/tags/博客/"},{"text":"idea","weight":1,"link":"/tags/idea/"},{"text":"css","weight":1,"link":"/tags/css/"},{"text":"Vue","weight":2,"link":"/tags/Vue/"},{"text":"axios","weight":1,"link":"/tags/axios/"},{"text":"WebStorm","weight":1,"link":"/tags/WebStorm/"},{"text":"wechat-devtools","weight":1,"link":"/tags/wechat-devtools/"},{"text":"防火墙","weight":1,"link":"/tags/防火墙/"},{"text":"杀毒","weight":1,"link":"/tags/杀毒/"},{"text":"论文","weight":1,"link":"/tags/论文/"},{"text":"vantUI","weight":1,"link":"/tags/vantUI/"},{"text":"code","weight":1,"link":"/tags/code/"},{"text":"六级","weight":1,"link":"/tags/六级/"},{"text":"词汇","weight":1,"link":"/tags/词汇/"}], {
+        autoResize: true
+    });
+</script>
+
+    
+
+<!--
+    
+
 <div id="tags" class="container chip-container">
     <div class="card">
         <div class="card-content">
@@ -464,19 +509,19 @@
                 </a>
                 
                 
-                <a href="/tags/Less/" title="Less: 1">
+                <a href="/tags/JDK/" title="JDK: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Less" style="background-color: #F5EEF8;">Less
+                            data-tagname="JDK" style="background-color: #E8F8F5;">JDK
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/JDK/" title="JDK: 1">
+                <a href="/tags/Less/" title="Less: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="JDK" style="background-color: #E8F8F5;">JDK
+                            data-tagname="Less" style="background-color: #F5EEF8;">Less
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -509,19 +554,19 @@
                 </a>
                 
                 
-                <a href="/tags/Typora/" title="Typora: 1">
+                <a href="/tags/TortoiseGit/" title="TortoiseGit: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Typora" style="background-color: #F8F9F9;">Typora
+                            data-tagname="TortoiseGit" style="background-color: #F9E79F;">TortoiseGit
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/TortoiseGit/" title="TortoiseGit: 1">
+                <a href="/tags/Typora/" title="Typora: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="TortoiseGit" style="background-color: #F9E79F;">TortoiseGit
+                            data-tagname="Typora" style="background-color: #F8F9F9;">Typora
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -554,15 +599,6 @@
                 </a>
                 
                 
-                <a href="/tags/idea/" title="idea: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="idea" style="background-color: #E8F8F5;">idea
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/hexo/" title="hexo: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -577,6 +613,15 @@
                              chip-default "
                             data-tagname="博客" style="background-color: #F8F9F9;">博客
                         <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/idea/" title="idea: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="idea" style="background-color: #E8F8F5;">idea
+                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -692,35 +737,177 @@
         </div>
     </div>
 </div>
-
     
-    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
-<style type="text/css">
-    #tag-wordcloud {
+-->
+
+    <style type="text/css">
+    #posts-chart,
+    #categories-chart,
+    #tags-chart {
         width: 100%;
         height: 300px;
+        margin: 0.5rem auto;
+        padding: 0.5rem;
     }
 </style>
 
-<div class="container" data-aos="fade-up">
-    <div class="card">
-        <div id="tag-wordcloud" class="card-content"></div>
+<div id="postCharts" class="post-charts">
+    <div class="title center-align" data-aos="zoom-in-up">
+        <i class="far fa-bar-chart"></i>&nbsp;&nbsp;文章统计图
+    </div>
+    <div class="row">
+        <div class="chart col s12 m6 l4" data-aos="zoom-in-up">
+            <div id="posts-chart"></div>
+        </div>
+
+        <div class="chart col s12 m6 l4" data-aos="zoom-in-up">
+            <div id="categories-chart"></div>
+        </div>
+
+        <div class="chart col s12 m6 l4" data-aos="zoom-in-up">
+            <div id="tags-chart"></div>
+        </div>
     </div>
 </div>
 
-<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="/libs/echarts/echarts.min.js"></script>
+<script>
+    let postsChart = echarts.init(document.getElementById('posts-chart'));
+    let categoriesChart = echarts.init(document.getElementById('categories-chart'));
+    let tagsChart = echarts.init(document.getElementById('tags-chart'));
+
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"Android Studio","weight":1,"link":"/tags/Android-Studio/"},{"text":"Axure","weight":1,"link":"/tags/Axure/"},{"text":"安装","weight":10,"link":"/tags/安装/"},{"text":"破解","weight":2,"link":"/tags/破解/"},{"text":"汉化","weight":1,"link":"/tags/汉化/"},{"text":"Excel","weight":9,"link":"/tags/Excel/"},{"text":"技巧","weight":6,"link":"/tags/技巧/"},{"text":"ERROR","weight":7,"link":"/tags/ERROR/"},{"text":"maven打包","weight":1,"link":"/tags/maven打包/"},{"text":"Git","weight":7,"link":"/tags/Git/"},{"text":"下载","weight":7,"link":"/tags/下载/"},{"text":"配置","weight":3,"link":"/tags/配置/"},{"text":"克隆","weight":1,"link":"/tags/克隆/"},{"text":"推送（Push）","weight":1,"link":"/tags/推送（Push）/"},{"text":"拉取（Pull）","weight":2,"link":"/tags/拉取（Pull）/"},{"text":"HBuilder","weight":1,"link":"/tags/HBuilder/"},{"text":"导入","weight":1,"link":"/tags/导入/"},{"text":"Less","weight":1,"link":"/tags/Less/"},{"text":"JDK","weight":1,"link":"/tags/JDK/"},{"text":"MySQL","weight":2,"link":"/tags/MySQL/"},{"text":"Linux","weight":1,"link":"/tags/Linux/"},{"text":"PyCharm","weight":1,"link":"/tags/PyCharm/"},{"text":"Typora","weight":1,"link":"/tags/Typora/"},{"text":"TortoiseGit","weight":1,"link":"/tags/TortoiseGit/"},{"text":"VSCode","weight":1,"link":"/tags/VSCode/"},{"text":"Blog","weight":1,"link":"/tags/Blog/"},{"text":"第一次系统自带文件","weight":1,"link":"/tags/第一次系统自带文件/"},{"text":"idea","weight":1,"link":"/tags/idea/"},{"text":"hexo","weight":1,"link":"/tags/hexo/"},{"text":"博客","weight":2,"link":"/tags/博客/"},{"text":"css","weight":1,"link":"/tags/css/"},{"text":"Vue","weight":2,"link":"/tags/Vue/"},{"text":"axios","weight":1,"link":"/tags/axios/"},{"text":"WebStorm","weight":1,"link":"/tags/WebStorm/"},{"text":"wechat-devtools","weight":1,"link":"/tags/wechat-devtools/"},{"text":"防火墙","weight":1,"link":"/tags/防火墙/"},{"text":"杀毒","weight":1,"link":"/tags/杀毒/"},{"text":"论文","weight":1,"link":"/tags/论文/"},{"text":"vantUI","weight":1,"link":"/tags/vantUI/"},{"text":"code","weight":1,"link":"/tags/code/"},{"text":"六级","weight":1,"link":"/tags/六级/"},{"text":"词汇","weight":1,"link":"/tags/词汇/"}], {
-        autoResize: true
-    });
+    let postsOption = {
+        title: {
+            text: '文章发布统计图',
+            top: -5,
+            x: 'center'
+        },
+        tooltip: {
+            trigger: 'axis'
+        },
+        xAxis: {
+            type: 'category',
+            data: ["2020-08","2020-09","2020-10","2020-11","2020-12","2021-01","2021-02","2021-03","2021-04","2021-05","2021-06","2021-07","2021-08"]
+        },
+        yAxis: {
+            type: 'value',
+        },
+        series: [
+            {
+                name: '文章篇数',
+                type: 'line',
+                color: ['#6772e5'],
+                data: [0,0,0,0,0,7,10,18,4,2,0,0,1],
+                markPoint: {
+                    symbolSize: 45,
+                    color: ['#fa755a','#3ecf8e','#82d3f4'],
+                    data: [{
+                        type: 'max',
+                        itemStyle: {color: ['#3ecf8e']},
+                        name: '最大值'
+                    }, {
+                        type: 'min',
+                        itemStyle: {color: ['#fa755a']},
+                        name: '最小值'
+                    }]
+                },
+                markLine: {
+                    itemStyle: {color: ['#ab47bc']},
+                    data: [
+                        {type: 'average', name: '平均值'}
+                    ]
+                }
+            }
+        ]
+    };
+
+    
+
+    let categoriesOption = {
+        title: {
+            text: '文章分类统计图',
+            top: -4,
+            x: 'center'
+        },
+        tooltip: {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        series: [
+            {
+                name: '分类',
+                type: 'pie',
+                radius: '50%',
+                color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
+                data: [],
+                itemStyle: {
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowOffsetX: 0,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }
+        ]
+    };
+
+    
+
+    let tagsOption = {
+        title: {
+            text: 'TOP10 标签统计图',
+            top: -5,
+            x: 'center'
+        },
+        tooltip: {},
+        xAxis: [
+            {
+                type: 'category',
+                data: ["安装","Excel","ERROR","Git","下载","技巧","配置","破解","拉取（Pull）","MySQL"]
+            }
+        ],
+        yAxis: [
+            {
+                type: 'value'
+            }
+        ],
+        series: [
+            {
+                type: 'bar',
+                color: ['#82d3f4'],
+                barWidth : 18,
+                data: [10,9,7,7,7,6,3,2,2,2],
+                markPoint: {
+                    symbolSize: 45,
+                    data: [{
+                        type: 'max',
+                        itemStyle: {color: ['#3ecf8e']},
+                        name: '最大值'
+                    }, {
+                        type: 'min',
+                        itemStyle: {color: ['#fa755a']},
+                        name: '最小值'
+                    }],
+                },
+                markLine: {
+                    itemStyle: {color: ['#ab47bc']},
+                    data: [
+                        {type: 'average', name: '平均值'}
+                    ]
+                }
+            }
+        ]
+    };
+
+    // render the charts
+    postsChart.setOption(postsOption);
+    categoriesChart.setOption(categoriesOption);
+    tagsChart.setOption(tagsOption);
 </script>
 
-    
-
 </main>
-
 
     <footer class="page-footer bg-color">
     
