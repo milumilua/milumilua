@@ -302,6 +302,51 @@
 
     
 
+<div id="category-cloud" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
+            </div>
+            <div class="tag-chips">
+                
+                你目前还没有对文章进行分类.
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"Android Studio","weight":1,"link":"/tags/Android-Studio/"},{"text":"Axure","weight":1,"link":"/tags/Axure/"},{"text":"安装","weight":10,"link":"/tags/安装/"},{"text":"破解","weight":2,"link":"/tags/破解/"},{"text":"汉化","weight":1,"link":"/tags/汉化/"},{"text":"Excel","weight":9,"link":"/tags/Excel/"},{"text":"技巧","weight":6,"link":"/tags/技巧/"},{"text":"ERROR","weight":7,"link":"/tags/ERROR/"},{"text":"maven打包","weight":1,"link":"/tags/maven打包/"},{"text":"Git","weight":7,"link":"/tags/Git/"},{"text":"下载","weight":7,"link":"/tags/下载/"},{"text":"配置","weight":3,"link":"/tags/配置/"},{"text":"克隆","weight":1,"link":"/tags/克隆/"},{"text":"推送（Push）","weight":1,"link":"/tags/推送（Push）/"},{"text":"拉取（Pull）","weight":2,"link":"/tags/拉取（Pull）/"},{"text":"HBuilder","weight":1,"link":"/tags/HBuilder/"},{"text":"导入","weight":1,"link":"/tags/导入/"},{"text":"JDK","weight":1,"link":"/tags/JDK/"},{"text":"Less","weight":1,"link":"/tags/Less/"},{"text":"MySQL","weight":2,"link":"/tags/MySQL/"},{"text":"Linux","weight":1,"link":"/tags/Linux/"},{"text":"PyCharm","weight":1,"link":"/tags/PyCharm/"},{"text":"TortoiseGit","weight":1,"link":"/tags/TortoiseGit/"},{"text":"Typora","weight":1,"link":"/tags/Typora/"},{"text":"VSCode","weight":1,"link":"/tags/VSCode/"},{"text":"Blog","weight":1,"link":"/tags/Blog/"},{"text":"第一次系统自带文件","weight":1,"link":"/tags/第一次系统自带文件/"},{"text":"hexo","weight":1,"link":"/tags/hexo/"},{"text":"博客","weight":2,"link":"/tags/博客/"},{"text":"idea","weight":1,"link":"/tags/idea/"},{"text":"css","weight":1,"link":"/tags/css/"},{"text":"Vue","weight":2,"link":"/tags/Vue/"},{"text":"axios","weight":1,"link":"/tags/axios/"},{"text":"WebStorm","weight":1,"link":"/tags/WebStorm/"},{"text":"wechat-devtools","weight":1,"link":"/tags/wechat-devtools/"},{"text":"防火墙","weight":1,"link":"/tags/防火墙/"},{"text":"杀毒","weight":1,"link":"/tags/杀毒/"},{"text":"论文","weight":1,"link":"/tags/论文/"},{"text":"vantUI","weight":1,"link":"/tags/vantUI/"},{"text":"code","weight":1,"link":"/tags/code/"},{"text":"六级","weight":1,"link":"/tags/六级/"},{"text":"词汇","weight":1,"link":"/tags/词汇/"}], {
+        autoResize: true
+    });
+</script>
+
+    
+
+<!--
+    
+
 <div id="tags" class="container chip-container">
     <div class="card">
         <div class="card-content">
@@ -692,51 +737,6 @@
         </div>
     </div>
 </div>
-
-    
-    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
-<style type="text/css">
-    #tag-wordcloud {
-        width: 100%;
-        height: 300px;
-    }
-</style>
-
-<div class="container" data-aos="fade-up">
-    <div class="card">
-        <div id="tag-wordcloud" class="card-content"></div>
-    </div>
-</div>
-
-<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
-<script type="text/javascript">
-    
-
-    $('#tag-wordcloud').jQCloud([{"text":"Android Studio","weight":1,"link":"/tags/Android-Studio/"},{"text":"Axure","weight":1,"link":"/tags/Axure/"},{"text":"安装","weight":10,"link":"/tags/安装/"},{"text":"破解","weight":2,"link":"/tags/破解/"},{"text":"汉化","weight":1,"link":"/tags/汉化/"},{"text":"Excel","weight":9,"link":"/tags/Excel/"},{"text":"技巧","weight":6,"link":"/tags/技巧/"},{"text":"ERROR","weight":7,"link":"/tags/ERROR/"},{"text":"maven打包","weight":1,"link":"/tags/maven打包/"},{"text":"Git","weight":7,"link":"/tags/Git/"},{"text":"下载","weight":7,"link":"/tags/下载/"},{"text":"配置","weight":3,"link":"/tags/配置/"},{"text":"克隆","weight":1,"link":"/tags/克隆/"},{"text":"推送（Push）","weight":1,"link":"/tags/推送（Push）/"},{"text":"拉取（Pull）","weight":2,"link":"/tags/拉取（Pull）/"},{"text":"HBuilder","weight":1,"link":"/tags/HBuilder/"},{"text":"导入","weight":1,"link":"/tags/导入/"},{"text":"JDK","weight":1,"link":"/tags/JDK/"},{"text":"Less","weight":1,"link":"/tags/Less/"},{"text":"MySQL","weight":2,"link":"/tags/MySQL/"},{"text":"Linux","weight":1,"link":"/tags/Linux/"},{"text":"PyCharm","weight":1,"link":"/tags/PyCharm/"},{"text":"TortoiseGit","weight":1,"link":"/tags/TortoiseGit/"},{"text":"Typora","weight":1,"link":"/tags/Typora/"},{"text":"VSCode","weight":1,"link":"/tags/VSCode/"},{"text":"Blog","weight":1,"link":"/tags/Blog/"},{"text":"第一次系统自带文件","weight":1,"link":"/tags/第一次系统自带文件/"},{"text":"hexo","weight":1,"link":"/tags/hexo/"},{"text":"博客","weight":2,"link":"/tags/博客/"},{"text":"idea","weight":1,"link":"/tags/idea/"},{"text":"css","weight":1,"link":"/tags/css/"},{"text":"Vue","weight":2,"link":"/tags/Vue/"},{"text":"axios","weight":1,"link":"/tags/axios/"},{"text":"WebStorm","weight":1,"link":"/tags/WebStorm/"},{"text":"wechat-devtools","weight":1,"link":"/tags/wechat-devtools/"},{"text":"防火墙","weight":1,"link":"/tags/防火墙/"},{"text":"杀毒","weight":1,"link":"/tags/杀毒/"},{"text":"论文","weight":1,"link":"/tags/论文/"},{"text":"vantUI","weight":1,"link":"/tags/vantUI/"},{"text":"code","weight":1,"link":"/tags/code/"},{"text":"六级","weight":1,"link":"/tags/六级/"},{"text":"词汇","weight":1,"link":"/tags/词汇/"}], {
-        autoResize: true
-    });
-</script>
-
-    
-
-<!--
-    
-
-<div id="category-cloud" class="container chip-container">
-    <div class="card">
-        <div class="card-content">
-            <div class="tag-title center-align">
-                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
-            </div>
-            <div class="tag-chips">
-                
-                你目前还没有对文章进行分类.
-                
-            </div>
-        </div>
-    </div>
-</div>
-
     
 -->
 
