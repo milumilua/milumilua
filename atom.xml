@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-12T08:39:03.024Z</updated>
+  <updated>2021-08-12T08:59:23.482Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>remote: milumilua: Incorrect username or password (access token) fatal: Authentication failed for</title>
+    <title>remote: Incorrect username or password (access token) fatal: Authentication failed for</title>
     <link href="http://example.com/posts/a75e.html"/>
     <id>http://example.com/posts/a75e.html</id>
     <published>2021-08-12T08:19:17.000Z</published>
-    <updated>2021-08-12T08:39:03.024Z</updated>
+    <updated>2021-08-12T08:59:23.482Z</updated>
     
     
       
@@ -37,6 +37,8 @@
     
     
     <category term="ERROR" scheme="http://example.com/tags/ERROR/"/>
+    
+    <category term="Git" scheme="http://example.com/tags/Git/"/>
     
   </entry>
   

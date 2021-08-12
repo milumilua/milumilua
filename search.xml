@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>remote: milumilua: Incorrect username or password (access token) fatal: Authentication failed for</title>
+      <title>remote: Incorrect username or password (access token) fatal: Authentication failed for</title>
       <link href="posts/a75e.html"/>
       <url>posts/a75e.html</url>
       
@@ -15,6 +15,8 @@
         <tags>
             
             <tag> ERROR </tag>
+            
+            <tag> Git </tag>
             
         </tags>
       
@@ -875,11 +877,11 @@
             
             <tag> Git </tag>
             
-            <tag> 拉取（Pull） </tag>
-            
             <tag> 克隆 </tag>
             
             <tag> 推送（Push） </tag>
+            
+            <tag> 拉取（Pull） </tag>
             
         </tags>
       
@@ -948,11 +950,11 @@
             
             <tag> Git </tag>
             
+            <tag> 拉取（Pull） </tag>
+            
             <tag> HBuilder </tag>
             
             <tag> 导入 </tag>
-            
-            <tag> 拉取（Pull） </tag>
             
         </tags>
       
