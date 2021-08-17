@@ -25,27 +25,6 @@
     
     
     <entry>
-      <title>remote: Incorrect username or password (access token) fatal: Authentication failed for</title>
-      <link href="posts/a75e.html"/>
-      <url>posts/a75e.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="一、问题描述"><a href="#一、问题描述" class="headerlink" title="一、问题描述"></a>一、问题描述</h2><p>gitee推送到远程仓库时提示错误</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">remote: Incorrect username or password (access token )fatal: Authentication failed for 'https://gitee.com/***/***.git/'<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>效果如下图所示：</p><p><img src="/images/remote-milumilua-Incorrect-username-or-password-access-token-fatal-Authentication-failed-for/image-20210812162259775.png" alt="问题描述图片"></p><h2 id="二、解决方法："><a href="#二、解决方法：" class="headerlink" title="二、解决方法："></a>二、解决方法：</h2><h3 id="方法一："><a href="#方法一：" class="headerlink" title="方法一："></a>方法一：</h3><p>清楚本地的<code>gitee</code>的用户名密码之后再进行重新推送就可以啦~</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">git config --system --unset credential.helper<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="方法二："><a href="#方法二：" class="headerlink" title="方法二："></a>方法二：</h3><p>如果方法一不好用的话可以使用方法二</p><h4 id="1-找到下方目录"><a href="#1-找到下方目录" class="headerlink" title="1.找到下方目录"></a>1.找到下方目录</h4><p><img src="/images/remote-milumilua-Incorrect-username-or-password-access-token-fatal-Authentication-failed-for/image-20210812162947895.png" alt="目标目录"></p><h4 id="2-找到“普通凭据”"><a href="#2-找到“普通凭据”" class="headerlink" title="2.找到“普通凭据”"></a>2.找到“普通凭据”</h4><p>在“普通凭据”中找到<code>git:https://gitee.com</code>选择编辑重新修改密码，或者删除重新进行<code>git</code>命令的推送就好了。</p><p><img src="/images/remote-milumilua-Incorrect-username-or-password-access-token-fatal-Authentication-failed-for/image-20210812163117689.png" alt="凭据管理器"></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> ERROR </tag>
-            
-            <tag> Git </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hello World</title>
       <link href="posts/16107.html"/>
       <url>posts/16107.html</url>
