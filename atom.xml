@@ -304,9 +304,9 @@
     
     
     
-    <category term="Git" scheme="http://example.com/tags/Git/"/>
-    
     <category term="ERROR" scheme="http://example.com/tags/ERROR/"/>
+    
+    <category term="Git" scheme="http://example.com/tags/Git/"/>
     
   </entry>
   
